@@ -81,3 +81,22 @@ e entrará nela, por exemplo: `git checkout -b novoBotao`
 * Assim, tudo o que tinha de alteração na branch novoBotao (por exemplo) se juntará à branch `main`
 
 * Para finalizar digite `git push origin main` e suba os arquivos para a branch principal do repositório remoto 
+
+## Clone 
+
+* Para fazer o download de um repositório remoto, seu ou de outro usuário, há duas opções:
+* 1ª opção: clicar no botão `code` que se encontra no próprio Github e em seguida no botão `Download ZIP` , conforme imagem abaixo
+
+    <img src="img/imgClone.PNG">
+
+* 2ª opção: utilizando o mesmo link presente na imagem acima, abra o terminal e digite `git clone <link copiado do repositório remoto>`
+**Observação**: é importante que ao repositório de sua própria conta no Github, verifique qual branch no Github está como `default`, pois
+o **projeto clonado será aquele que se encontra na branch `default`**
+
+## Pull 
+
+* E se por exemplo o desenvolvedor digitar novos códigos em seu computador de casa e subi-los para o repositório remoto, percerber ao chegar 
+no trabalho que o projeto na máquina do escritório está desatualizado ?
+
+* Para puxar **todas as alterações realizadas do repositório remoto (Github) para o seu repositório local**, digite `git pull`
+
